@@ -12,3 +12,9 @@ scores = list(map(int, input().split()))
 average=sum(scores)/len(scores)
 
 print(average)
+    https://colab.research.google.com/drive/18zzGf-FVdVt7uiBkrqi_NWXlJVI4gMOP
+"""
+
+scores = list(map(int, input().split()))
+fail_count = sum(1 for s in scores if s < 60)
+print(fail_count)
