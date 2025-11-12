@@ -24,4 +24,4 @@ min_score = min(scores)
 print(fail_count)
 print(max_score, min_score)
 fail_count = sum(1 for s in scores if s < 60)
-print(fail_count)
+
