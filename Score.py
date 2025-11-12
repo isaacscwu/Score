@@ -8,5 +8,12 @@ Original file is located at
 """
 
 scores = list(map(int, input().split()))
+
+fail_count = sum(1 for s in scores if s < 60)
+max_score = max(scores)
+min_score = min(scores)
+
+print(fail_count)
+print(max_score, min_score)
 fail_count = sum(1 for s in scores if s < 60)
 print(fail_count)
